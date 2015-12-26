@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Social Deign Summer Reading List"
+title:  "Social Design Summer Reading List"
 date:   2015-07-08 12:00:00
 categories: reblog
 tags: design
