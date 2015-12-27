@@ -1,6 +1,6 @@
 ---
 layout: no-about-page
-title: About
+title: Story
 permalink: /story/
 image: /images/caitlin-facilitating_large.jpg
 ---

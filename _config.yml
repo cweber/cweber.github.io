@@ -11,9 +11,13 @@ github_username:  cweber
 # Build settings
 markdown: kramdown
 
-paginate: 4
-paginate_path: thoughts/page/:num
+paginate:         3
+paginate_path: "/thoughts/page:num/"
 
 author: Caitlin Weber
 
 gems: [jekyll-paginate]
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
