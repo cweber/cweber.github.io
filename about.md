@@ -1,7 +1,7 @@
 ---
 layout: no-about-page
-title: Story
-permalink: /story/
+title: About
+permalink: /about/
 image: /images/caitlin-facilitating_large.jpg
 ---
 

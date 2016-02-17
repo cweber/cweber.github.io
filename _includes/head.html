@@ -3,9 +3,7 @@
   <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
 	<nav class="links">
     <ul>
-		<li><a href="/work">Work</a></li>
-		<li><a href="/thoughts">Thoughts</a></li>
-		<li><a href="/story">Story</a></li>
+		{% include navigation.html %}
 	</ul>
 	</nav>
 	<nav class="main">
@@ -37,11 +35,9 @@
   -->
 	<!-- Links -->
 	<section>
-	  <ul class="links">
-	    <li><a href="/work">Work</a></li>
-		<li><a href="/thoughts">Thoughts</a></li>
-		<li><a href="/story">Story</a></li>
-    </ul>
+		<ul>
+			{% include navigation.html %}
+		</ul>
 	</section>
 	<!-- Actions -->
   <!--
