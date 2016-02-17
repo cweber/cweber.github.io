@@ -19,5 +19,5 @@ author: Caitlin Weber
 gems: [jekyll-paginate]
 
 # Permalinks
-permalink:        pretty
+permalink:        prettyZ
 relative_permalinks: true
