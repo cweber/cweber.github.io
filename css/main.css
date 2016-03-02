@@ -537,7 +537,7 @@ article.post.portfolio {
 
 	}
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: 1280px) {
 
 		.row > * {
 			padding: 0 0 0 1em;
@@ -2280,7 +2280,7 @@ article.post.portfolio {
 					content: '\f053';
 				}
 
-			@media screen and (max-width: 960px) {
+			@media screen and (max-width: 1280px) {
 
 				ul.actions.pagination {
 					text-align: center;
@@ -2537,7 +2537,7 @@ article.post.portfolio {
 		margin: 0 0 2em 0;
 	}
 
-		@media screen and (max-width: 960px) {
+		@media screen and (max-width: 1280px) {
 
 			.mini-posts {
 				display: -moz-flex;
@@ -2958,7 +2958,6 @@ article.post.portfolio {
 		padding-top: 3.5em;
 	}
 
-
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3129,7 +3128,7 @@ article.post.portfolio {
 				padding: 0 0.5em 0 0;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 980px) {
 
 			#header .links {
 				display: none;
@@ -3153,11 +3152,6 @@ article.post.portfolio {
 				}
 
 		}
-		@media screen and (min-width: 960px) {
-			#header {
-			display: none;
-		}
-}
 
 /* Wrapper */
 
@@ -3193,7 +3187,7 @@ article.post.portfolio {
 
 		}
 
-		@media screen and (max-width: 960px) {
+		@media screen and (max-width: 1280px) {
 
 			#wrapper {
 				display: block;
@@ -3224,7 +3218,7 @@ article.post.portfolio {
 
 	#sidebar {
 		margin-right: 3em;
-		/*min-width: 22em;*/
+		min-width: 22em;
 		width: 22em;
 	}
 
@@ -3240,10 +3234,14 @@ article.post.portfolio {
 			padding-top: 0;
 		}
 
-		@media screen and (max-width: 960px) {
+		@media screen and (max-width: 1280px) {
 
 			#sidebar {
-				display: none;
+				border-top: solid 1px rgba(160, 160, 160, 0.3);
+				margin: 3em 0 0 0;
+				min-width: 0;
+				padding: 3em 0 0 0;
+				width: 100%;
 			}
 
 		}
@@ -3280,7 +3278,7 @@ article.post.portfolio {
 		}
 
 	#intro header h2 {
-		font-size: 1.7em;
+		font-size: 2em;
 		font-weight: 900;
 	}
 
@@ -3288,7 +3286,7 @@ article.post.portfolio {
 		font-size: 0.8em;
 	}
 
-	@media screen and (max-width: 960px) {
+	@media screen and (max-width: 1280px) {
 
 		#intro {
 			margin: 0 0 3em 0;
@@ -3443,16 +3441,4 @@ article.post.portfolio {
 				padding: 1.5em;
 			}
 
-		}
-		@media screen and (min-width: 736px) {
-			.menu {
-			display: none;}
-
-			#header ul li.menu {
-			    display: none;
-			}
-
-			/*#header ul li {
-				display: none;
-			}*/
 		}
