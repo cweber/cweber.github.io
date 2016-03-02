@@ -12,7 +12,7 @@ github_username:  cweber
 markdown: kramdown
 
 paginate:         3
-paginate_path: "/thoughts/page:num/"
+paginate_path: "/blog/page:num/"
 
 author: Caitlin Weber
 
