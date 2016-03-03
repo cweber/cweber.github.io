@@ -1,19 +1,13 @@
-<footer class="site-footer">
+<section class="sidebar">
+	<img class="logo" src="/img/logo.jpg" />
+	<h1>Caitlin Weber</h1>
+	<h2>Social Designer <br>and Creative Leader</h2>
 
-  <div class="wrapper">
+	<nav>
+		{% include menu-items.html %}
+	</nav>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
+	<ul class="social-media-list">
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -43,10 +37,4 @@
           </li>
           {% endif %}
         </ul>
-      </div>
-
-    </div>
-
-  </div>
-
-</footer>
+</section>

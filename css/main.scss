@@ -1,0 +1,222 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       rgba(0,0,0,.7);
+$background-color: #f4f4f4;
+$brand-color:      #c25e15;
+$brand-color-secondary:      #007B84;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+.wrapper {
+	max-width: 100%;
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -moz-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+}
+
+
+
+// My styles
+
+body {
+	font-family: "Raleway", Helvetica, sans-serif;
+	border-top: 5px solid $brand-color;
+}
+
+.clear {
+	clear: both;
+}
+
+header.site-header {
+		font-size: .8em;
+	    text-transform: uppercase;
+	    background: #ffffff;
+	    font-weight: 600;
+	    letter-spacing: .18em;
+	h1 {
+	    font-size: .5em;
+	    font-weight: bold;
+	    letter-spacing: .18em;
+	    background-image: url('/img/logo.jpg');
+	    background-size: 27px;
+	    background-repeat: no-repeat;
+    	background-position: 0px 8px;
+    	padding-left: 35px;
+	}
+	a:hover, .site-title a:hover {
+	}
+	.site-title, .site-nav {
+		float: left;
+	}
+	ul li {
+	    border-left: solid 1px rgba(160, 160, 160, 0.3);
+	    line-height: 1;
+	    margin-left: 1em;
+	    padding-left: 1.3em;
+	    list-style-type: none;
+	    display: inline-block;
+	}
+	ul li:first-child {
+	    border-left: 0;
+	    margin-left: 0;
+	    padding-left: 0;
+	}
+}
+.sidebar {
+	width: 12.5em;
+	float: left;
+    margin-right: 3em;
+    letter-spacing: .18em;
+    .logo {
+	    margin: 0 auto;
+	    width: auto;
+	    display: block;
+	    margin-bottom: 40px;
+    }
+    h2 {
+    	text-transform: uppercase;
+	    font-size: .8em;
+	    font-weight: 500;
+    }
+    nav {
+    	text-transform: uppercase;
+    	border-top: solid 1px rgba(160, 160, 160, 0.3);
+    	margin-top: 3em;
+    	padding-top: 2.3em;
+    	font-weight: 600;
+    	ul {
+    		margin-left: 0;
+    	}
+    	li {
+    		list-style-type: none;
+    		padding:  .7em 0;
+    	}
+    }
+    h1 {
+		font-size: 2.45em;
+	    font-weight: 900;
+		letter-spacing: .18em;
+		text-transform: uppercase;
+	}
+}
+article {
+	background-color: #fff;
+	padding: 3em;
+	margin-bottom: 3em;
+	header {
+	    margin: -3em -3em 3em -3em;
+	    padding: 1.5em 3em 1.5em 3em;
+	    border-bottom: 2px solid rgb(20, 143, 154);
+    	h1 {
+    		margin-bottom: 0;
+		    font-size: 1.7em;
+		    font-weight: 600;
+		    float: left;
+		    width: 80%
+    	}
+    	address {
+    		float: left;
+    		width: 20%;
+    	}
+	}
+}
+header.page-heading {
+	background-color: #f4f4f4;
+}
+
+.header-wrapper {
+	margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.content {
+	width: 100%;
+	float: left;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+	header.site-header {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+	.content {
+	    width: 70%;
+	    float: left;
+	    max-width: 840px;
+	}
+}
+@media screen and (max-width: 1023px) {
+	.sidebar {
+		display: none;
+	}
+}
+@media screen and (min-width: 800px) {
+	.header-wrapper {
+	    padding-right: 30px;
+	    padding-left: 30px;
+	}
+}
+
+
+
+
+
+
+
+

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Portfolio
-permalink: /portfolio/
+title: Blog
+permalink: /blog/
 ---
 
 <div class="content">
 
-    {% for post in site.categories['portfolio'] %}
+    {% for post in site.categories['blog'] %}
     <article>
-        <! -- Portfolio Item -->
+        <! -- Blog Post -->
         <header class="page-heading">    
         <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
         <p><csmall>{{ post.date | date: "%b %-d, %Y" }}.</csmall></p>

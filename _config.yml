@@ -1,23 +1,21 @@
 # Site settings
 title: Caitlin Weber
-email: caitlin@caitlinweber.com
+email: caitlin.weber@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Caitlin Weber is a social designer, creative leader and sustainable solutions junky working on her MA in Social Design and MICA in Baltimore, MD.
+  Welcome to the portfolio of Caitlin Weber
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "../" # the base hostname & protocol for your site
+url: "http://caitlinweber.com" # the base hostname & protocol for your site
 twitter_username: caitlinweber
 github_username:  cweber
+dribbble_username:  cweber
+linkedin_username:  cweber
 
 # Build settings
 markdown: kramdown
 
-paginate:         3
-paginate_path: "/thoughts/page:num/"
-
-author: Caitlin Weber
-
-gems: [jekyll-paginate]
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 relative_permalinks: true
+
+port: 5000
