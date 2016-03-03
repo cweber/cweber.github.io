@@ -236,6 +236,18 @@ header.page-heading {
 	}
 }
 
+@media screen and (max-width: 630px) {
+    .two-col {
+    float: none;
+    margin-top: 3em;
+	    &.wide {
+	        width: 100%
+	    }
+	    &.narrow {
+	        width: 100%;
+	    }
+	}
+}
 
 
 
