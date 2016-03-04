@@ -319,6 +319,10 @@ header.page-heading {
 	}
 	article {
 		padding: 1em;
+		header {
+			margin: -3em -16px 3em -16px;
+		    padding: 1.5em 15px 1.5em 15px;
+		}
 	}
 	.portfolio article {
 		float: none;
