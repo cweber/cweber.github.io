@@ -1,2 +1,2 @@
-# siera
-jekyll theme
+# Portfolio Site for Caitlin Weber
+Built in Jekyll
