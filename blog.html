@@ -12,19 +12,23 @@ permalink: /blog/
         <header class="page-heading">    
             <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
             <address>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}.</csmall></p>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}</csmall></p>
             </address>
             <div class="clear"></div>
         </header>
         
+        {% if post.img %}
         <a href="{{ post.url | prepend: site.baseurl }}">
             <img class="img-responsive" src="{{ "/img/" | prepend: site.baseurl }}{{ post.img }}">
         </a>
-        {{ post.excerpt }}
+        {% endif %}
+        <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+
         <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
         <div class="hline"></div>
 
         <div class="spacing"></div>
+        <div class="clear"></div>
     </article>
     {% endfor %}
 

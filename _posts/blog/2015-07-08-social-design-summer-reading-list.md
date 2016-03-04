@@ -6,18 +6,11 @@ categories:
 - blog
 tags: design
 img:  
+excerpt_separator: <!--more-->
+
 ---
 
-<style>
-.book-jacket {
-float: left;
-margin: 0 20px 20px 0;
-}
-.post-entry li, .post-entry ul {
-clear: both;
-list-style-type: none;
-}
-</style>
+<p>The following is the list of books and readings provided to the MICA Social Design students leading up to the first day.</p>
 
 <h3>Social Design</h3>
 
@@ -29,6 +22,9 @@ list-style-type: none;
 by Victor J. Papanek 
 </li>
 </ul>
+
+<!--more-->
+
 <h4>Articles</h4>
 <ul class="clearfix">
 <li>
