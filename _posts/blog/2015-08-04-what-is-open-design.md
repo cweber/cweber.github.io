@@ -7,12 +7,12 @@ categories:
 tags: design
 img:  codesign-800.jpg
 ---
-<figcaption style="background-color: rgba(20,143,154,.3); padding: 10px;"><em>Designers, developers and communication staff collaboratively wirestorm for the landing page of a new tool.</em></figcaption>
-
-<aside><em>This is a repost of my writing from the <a target="_blank" href="http://sunlightfoundation.com/blog/2015/07/28/what-is-open-design/">Sunlight Foundation blog.</em></a></aside>
-
 
 <p>Open design is a means to producing a better product. It means sharing solutions, process and assets and gathering feedback from fellow designers, the design community and nondesigners alike.</p>
+
+<a href="{{ post.url | prepend: site.baseurl }}">
+        <img class="img-responsive" src="{{ "/img/codesign-800.jpg" | prepend: site.baseurl }}">
+</a>
 <p>Sunlight has a long history as a proponent of open source technology. We use open source technologies to produce our tools, open source the code that we write for others to use and advocate for the same behavior from government. Open design aligns well with our organizational agenda for transparency in government. It also promotes our broader institutional expectation that an open and collaborative process will always produce better results than working in a silo.</p>
 <p>The Sunlight design team has been considering the notion of open design a lot over the past six months. We’re trying to figure out how our process can better align with the open source ethos of Sunlight. We see two facets to this type of thinking: open source design and designing in the open.</p>
 <h2 class="beta">Open source design</h2>
