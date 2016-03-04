@@ -4,7 +4,7 @@ title:  "Quién Manda"
 categories:
 - portfolio
 tags: design
-img: qm-cigars.jpg
+img: qm-profile.jpg
 ---
 
 <div class="prose two-col wide">

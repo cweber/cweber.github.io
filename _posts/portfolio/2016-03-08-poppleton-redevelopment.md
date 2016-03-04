@@ -8,7 +8,7 @@ img: poppleton-thumb.png
 ---
 
 <div class="prose two-col wide">
-	<p>At the Sunlight Foundation I produced many data driven tools, but I also worked to maintain and evolve the foundation website and print materials.
+	<p>This visualization was produced during my time in the MICA Social Design program as a critique of the Poppleton redevelopment project in Baltimore, MD.
 	</p>
 </div>
 
