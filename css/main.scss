@@ -76,6 +76,10 @@ body {
 	clear: both;
 }
 
+.alpha, .beta, .gamma {
+	margin-top: 1.5em
+}
+
 .alpha {
 	font-size: 1.7em;
     font-weight: 600;
@@ -246,15 +250,28 @@ header.page-heading {
 		header {
 			margin: 0;
 			background: #fff;
+			min-height: 48px;
+			.beta {
+				margin-top: 0;
+			}
 		}
-		&:nth-child(1) {
+		&:nth-child(odd) {
 	    padding-right: 1.5em;
 	}
-		&:nth-child(2) {
+		&:nth-child(even) {
 	    padding-left: 1.5em;
 	}
 	h1 {
 		width: 100%;
+	}
+}
+.video {
+	width: 100%;
+}
+.post img {
+	margin-bottom: 3em;
+	&.narrow {
+	margin-bottom: 0;
 	}
 }
 
@@ -301,10 +318,10 @@ header.page-heading {
 	.portfolio article {
 		float: none;
 		width: 100%;
-		&:nth-child(1) {
+		&:nth-child(odd) {
 		    padding-right: 0;
 		}
-			&:nth-child(2) {
+			&:nth-child(even) {
 		    padding-left: 0;
 		}
 	}
