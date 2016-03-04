@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Earth Advantage Institute"
 categories:
 - portfolio

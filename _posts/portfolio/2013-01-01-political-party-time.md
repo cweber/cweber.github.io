@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Political Party Time"
 categories:
 - portfolio

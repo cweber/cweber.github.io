@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Quién Manda"
 categories:
 - portfolio

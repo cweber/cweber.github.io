@@ -24,7 +24,7 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    padding-top: 18px;
 
     .menu-icon {
         display: none;
@@ -46,6 +46,7 @@
         text-align: right;
         float: none;
         width: 100%;
+        padding-top: 0;
 
         .menu-icon {
             display: block;

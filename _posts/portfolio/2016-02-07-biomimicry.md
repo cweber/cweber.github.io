@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Biomimicry Visualizations"
 categories:
 - portfolio

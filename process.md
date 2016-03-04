@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Process
+title: Theory
 permalink: /process/
 ---
 
 <div class="home content">
 	<article>
 		<header class="page-heading">
-			<h1>Process</h1>
+			<h1>Theory</h1>
 			<div class="clear"></div>
 		</header>
 

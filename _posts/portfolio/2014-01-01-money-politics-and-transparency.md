@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Money, Politics & Transparency"
 categories:
 - portfolio

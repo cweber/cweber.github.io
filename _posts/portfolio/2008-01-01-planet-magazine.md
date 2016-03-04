@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 title:  "Planet Magazine"
 categories:
 - portfolio

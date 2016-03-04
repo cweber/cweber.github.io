@@ -1,6 +1,6 @@
 # Site settings
 title: Caitlin Weber
-email: caitlin.weber@gmail.com
+email: caitlin@caitlinweber.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to the portfolio of Caitlin Weber
 baseurl: "" # the subpath of your site, e.g. /blog/
