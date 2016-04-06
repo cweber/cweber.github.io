@@ -2,6 +2,7 @@
 layout: default
 title: Theory
 permalink: /process/
+img: process.png
 ---
 
 <div class="home content">
@@ -10,6 +11,10 @@ permalink: /process/
 			<h1>Theory</h1>
 			<div class="clear"></div>
 		</header>
+
+		<a href="{{ post.url | prepend: site.baseurl }}">
+        <img class="img-responsive" src="{{ "/img/" | prepend: site.baseurl }}{{ page.img }}">
+	</a>
 
 		<p>Designers are pattern identifiers and pattern
 		makers, trained to recognize trends in existing
