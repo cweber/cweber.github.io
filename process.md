@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Theory
+title: Process
 permalink: /process/
 img: process.png
 ---
 
-<div class="home content">
+<div class="process content">
 	<article>
 		<header class="page-heading">
 			<h1>Theory</h1>
