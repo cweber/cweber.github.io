@@ -8,7 +8,7 @@ img: process.png
 <div class="process content">
 	<article>
 		<header class="page-heading">
-			<h1>Theory</h1>
+			<h1>Process and Theory</h1>
 			<div class="clear"></div>
 		</header>
 
